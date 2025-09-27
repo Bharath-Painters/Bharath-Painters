@@ -6,9 +6,9 @@ export const metadata = {
   title:
     "About Us | Bharath Painters Services - Professional Home Improvement Experts",
   description:
-    "Learn about Bharath Painters Services - over 8+ years of experience providing professional house painting, plumbing, electrical work, cleaning, and home improvement services.",
+    "Learn about Bharath Painters Services - over 8+ years of experience providing professional house painting, Texture, Grouting, Interior and exterior painting, Wallpaper, Waterproofing Deep cleaning, and home improvement services.",
   keywords:
-    "about Bharath Painters services, professional home improvement, licensed contractors, experienced home services team, home services, house painting, plumbing, electrical work, deep cleaning, furniture work, false ceiling, home improvement, professional services, renovation, house renovate, house renovation, bharath, painters, paintings, bharath painters",
+    "about Bharath Painters services, professional home improvement, licensed contractors, experienced home services team, home services, house painting, house painting, Texture, Grouting, Interior and exterior painting, Wallpaper, Waterproofing Deep cleaning, home improvement, professional services, renovation, house renovate, house renovation, bharath, painters, paintings, bharath painters",
   openGraph: {
     title:
       "About Bharath Painters Services - Your Trusted Home Improvement Partner",

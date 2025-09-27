@@ -13,15 +13,15 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Professional Home Services | Painting, Plumbing, Cleaning & More",
+  title: "Professional Home Services | Deep Cleaning, Painting & More",
   description:
-    "Comprehensive home services including house painting, deep cleaning, plumbing, electrical work, furniture repair, and false ceiling installation. Licensed professionals, quality guaranteed.",
+    "Comprehensive home services focused on deep cleaning, interior & exterior painting, grouting, texture finishes, wallpapers and waterproofing. Licensed professionals, quality guaranteed.",
   keywords:
-    "home services, house painting services, plumbing services, electrical work, deep cleaning services, furniture repair, false ceiling installation, home improvement, home services, house painting, plumbing, electrical work, deep cleaning, furniture work, false ceiling, home improvement, professional services, renovation, house renovate, house renovation, bharath, painters, paintings, bharath painters",
+    "home services, deep cleaning, exterior painting, interior painting, grouting, texture finishes, wallpapers, waterproofing, home improvement, bharath painters",
   openGraph: {
     title: "Professional Home Services - Quality Home Improvement Solutions",
     description:
-      "Expert home services including painting, plumbing, electrical, cleaning, and more. Licensed professionals with quality guarantee.",
+      "Expert home services including deep cleaning, painting, grouting, textures, wallpapers and waterproofing. Licensed professionals with quality guarantee.",
   },
 };
 
@@ -41,8 +41,7 @@ export default function Services() {
         "Ceiling Painting",
       ],
       href: "/services/interior-painting",
-      image:
-        "images/services/interior_painting/5.jpeg",
+      image: "images/services/interior_painting/5.jpeg",
       startingPrice: "₹5.5",
     },
     {
@@ -59,8 +58,7 @@ export default function Services() {
         "Garage Door Painting",
       ],
       href: "/services/exterior-painting",
-      image:
-        "images/services/exterior_painting/4.jpeg",
+      image: "images/services/exterior_painting/4.jpeg",
       startingPrice: "₹9",
     },
     {
@@ -77,8 +75,7 @@ export default function Services() {
         "Terrace & Balcony Treatment",
       ],
       href: "/services/water-proofing",
-      image:
-        "images/services/water_proofing/3.jpeg",
+      image: "images/services/water_proofing/3.jpeg",
       startingPrice: "₹28",
     },
     {
@@ -95,8 +92,7 @@ export default function Services() {
         "Floor Tile Grouting",
       ],
       href: "/services/grouting",
-      image:
-        "images/services/grouting/2.jpeg",
+      image: "images/services/grouting/2.jpeg",
       startingPrice: "₹45",
     },
     {
@@ -113,8 +109,7 @@ export default function Services() {
         "Custom Texture Designs",
       ],
       href: "/services/texture",
-      image:
-        "images/services/texture/2.jpeg",
+      image: "images/services/texture/2.jpeg",
       startingPrice: "₹60",
     },
     {
@@ -131,8 +126,7 @@ export default function Services() {
         "Wallpaper Consultation",
       ],
       href: "/services/wallpapers",
-      image:
-        "images/services/wallpaper/3.jpg",
+      image: "images/services/wallpaper/3.jpg",
       startingPrice: "₹3500",
     },
     {
@@ -149,8 +143,7 @@ export default function Services() {
         "Window Cleaning",
       ],
       href: "/services/deep-cleaning",
-      image:
-        "images/services/deep_cleaning/3.jpeg",
+      image: "images/services/deep_cleaning/3.jpeg",
       startingPrice: "₹5",
     },
     {

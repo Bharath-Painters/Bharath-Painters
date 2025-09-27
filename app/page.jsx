@@ -6,15 +6,15 @@ import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Professional Home Services | Painting, Plumbing, Cleaning & More",
+  title: "Professional Home Services | Deep Cleaning, Painting & More",
   description:
-    "Professional home services including house painting, deep cleaning, plumbing, electrical work, furniture work, and false ceiling installation. Quality workmanship guaranteed.",
+    "Professional home services focused on deep cleaning, interior & exterior painting, grouting, textures, wallpapers and waterproofing. Quality workmanship guaranteed.",
   keywords:
-    "home services, house painting, plumbing, electrical work, deep cleaning, furniture work, false ceiling, home improvement, professional services, renovation, house renovate, house renovation, bharath, painters, paintings, bharath painters",
+    "home services, deep cleaning, exterior painting, interior painting, grouting, texture finishes, wallpapers, waterproofing, home improvement, bharath painters",
   openGraph: {
     title: "Professional Home Services | Quality Home Improvement Solutions",
     description:
-      "Transform your home with our professional services including painting, plumbing, Electrical, furniture work, cleaning, and more. Quality guaranteed.",
+      "Transform your home with our professional services including deep cleaning, painting, grouting, textures, wallpapers and waterproofing. Quality guaranteed.",
   },
   icons: {
     icon: "/logo.jpg",

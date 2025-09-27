@@ -5,9 +5,9 @@ import { Star, Quote } from "lucide-react";
 export const metadata = {
   title: "Client Testimonials | Professional Home Services",
   description:
-    "Read what our clients say about our professional home services including painting, plumbing, electrical work, and more.",
+    "Read what our clients say about our professional home services including deep cleaning, painting, grouting, textures, wallpapers, and waterproofing.",
   keywords:
-    "home services testimonials, client reviews, customer feedback, service ratings, home improvement reviews, home services, house painting, plumbing, electrical work, deep cleaning, furniture work, false ceiling, home improvement, professional services, renovation, house renovate, house renovation, bharath, painters, paintings, bharath painters",
+    "home services testimonials, client reviews, customer feedback, service ratings, home improvement reviews, deep cleaning, exterior painting, interior painting, grouting, textures, wallpapers, waterproofing, bharath painters",
   openGraph: {
     title: "Client Testimonials - Professional Home Services",
     description:
