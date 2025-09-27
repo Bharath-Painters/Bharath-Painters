@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://bharathpainters.com
+
+# Sitemaps
+Sitemap: https://bharathpainters.com/sitemap.xml
