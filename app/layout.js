@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import Canonical from "@/components/Canonical";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +22,7 @@ export const metadata = {
     address: true,
     telephone: true,
   },
-  metadataBase: new URL("https://bharathpainters.com"),
+  metadataBase: new URL("https://www.bharathpainters.com"),
   alternates: {
     canonical: "/",
   },
@@ -29,14 +30,14 @@ export const metadata = {
     title: "Bharath Painters | Quality Home Improvement Solutions",
     description:
       "Transform your home with our professional services including painting, plumbing, cleaning, and more. Quality guaranteed.",
-    url: "https://bharathpainters.com",
+    url: "https://www.bharathpainters.com",
     siteName: "Bharath Painters",
     locale: "en_US",
     type: "website",
     images: [
       {
         // url: "./logo.jpg",
-        url: "https://bharathpainters.com/logo.jpg",
+        url: "https://www.bharathpainters.com/logo.jpg",
         width: 1200,
         height: 630,
         alt: "Bharath Painters - Professional Home Improvement",
@@ -48,7 +49,7 @@ export const metadata = {
     title: "Bharath Painters | Quality Home Improvement",
     description:
       "Transform your home with our professional services including painting, plumbing, cleaning, and more.",
-    images: ["https://bharathpainters.com/twitter-image.jpg"],
+    images: ["https://www.bharathpainters.com/twitter-image.jpg"],
   },
   robots: {
     index: true,
@@ -67,6 +68,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/logo.jpg" type="image/jpeg" />
         <script
@@ -77,12 +79,13 @@ export default function RootLayout({ children }) {
               "@type": "LocalBusiness",
               name: "Professional Home Services",
               // image: "./logo.jpg",
-              image: "https://bharathpainters.com/logo.jpg",
+              image: "https://www.bharathpainters.com/logo.jpg",
               telephone: "+91 8884563601",
               email: "info@bharathpainters.com",
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "Kudlu Gate, AECS Layout - A Block, Hal Layout, Singasandra",
+                streetAddress:
+                  "Kudlu Gate, AECS Layout - A Block, Hal Layout, Singasandra",
                 addressLocality: "Bengaluru",
                 addressRegion: "Karnataka",
                 postalCode: "560068",
@@ -93,7 +96,7 @@ export default function RootLayout({ children }) {
                 latitude: 40.7128,
                 longitude: -74.006,
               },
-              url: "https://bharathpainters.com",
+              url: "https://www.bharathpainters.com",
               sameAs: [
                 "https://www.facebook.com/bharathpainters",
                 "https://www.instagram.com/bharathpainters",
@@ -126,6 +129,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className={inter.className}>
+        <Canonical />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

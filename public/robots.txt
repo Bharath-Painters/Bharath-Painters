@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://bharathpainters.com
+Host: https://www.bharathpainters.com
 
 # Sitemaps
-Sitemap: https://bharathpainters.com/sitemap.xml
+Sitemap: https://www.bharathpainters.com/sitemap.xml

@@ -5,6 +5,6 @@ export default function robots() {
       allow: "/",
       disallow: ["/private/", "/admin/"],
     },
-    sitemap: "https://bharathpainters.com/sitemap.xml",
+    sitemap: "https://www.bharathpainters.com/sitemap.xml",
   };
 }

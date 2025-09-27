@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = "https://bharathpainters.com";
+  const baseUrl = "https://www.bharathpainters.com";
 
   const routes = [
     "",
