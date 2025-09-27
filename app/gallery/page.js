@@ -5,9 +5,9 @@ import { CheckCircle } from "lucide-react";
 export const metadata = {
   title: "Our Work Gallery | Bharath Painters Services",
   description:
-    "Browse our gallery of completed projects including painting, plumbing, electrical work, and more. See the quality of our professional home services.",
+    "Browse our gallery of completed projects including deepcleaning, exterior painting, grouting, interior painting, texture, wallpaper, and waterproofing., and more. See the quality of our professional home services.",
   keywords:
-    "home services gallery, painting projects, home improvement gallery, before and after, project showcase, home services, house painting, plumbing, electrical work, deep cleaning, furniture work, false ceiling, home improvement, professional services, renovation, house renovate, house renovation, bharath, painters, paintings, bharath painters",
+    "home services gallery, painting projects, home improvement gallery, before and after, project showcase, home services, house painting, plumbing, electrical work, deep cleaning, furniture work, false ceiling, home improvement, professional services, renovation, house renovate, house renovation, bharath, painters, paintings, bharath painters, deepcleaning, exterior painting, grouting, interior painting, texture, wallpaper, and waterproofing.",
   openGraph: {
     title: "Gallery of Our Professional Home Services Projects",
     description:
@@ -114,8 +114,7 @@ export default function Gallery() {
             Our Work Gallery
           </h1>
           <p className="text-md sm:text-lg text-blue-100 max-w-3xl mx-auto">
-            Explore our completed projects across painting, plumbing, electrical
-            work, and more. Every picture reflects our dedication to quality and
+            Explore our completed projects across deepcleaning, exterior painting, grouting, interior painting, texture, wallpaper, and waterproofing. From intricate details to stunning finishes, and more. Every picture reflects our dedication to quality and
             craftsmanship.
           </p>
         </div>

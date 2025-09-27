@@ -16,12 +16,14 @@ export default function ContactForm() {
   const [submitStatus, setSubmitStatus] = useState(null);
 
   const services = [
-    "House Painting",
+    "Interior Painting",
+    "Exterior Painting",
     "Deep Cleaning",
-    "Plumbing",
-    "Electrical Work",
-    "Furniture Work",
-    "False Ceiling",
+    "Grouting",
+    "Texture",
+    "Wallpaper",
+    "waterproofing",
+    "Wood Finishing",
     "Other",
   ];
 

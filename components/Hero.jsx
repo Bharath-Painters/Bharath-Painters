@@ -72,22 +72,22 @@ export default function Hero() {
     try {
       const formData = new FormData(formRef.current);
       const data = {
-        from_name: formData.get('name'),
-        from_email: formData.get('email'),
-        phone: formData.get('phone'),
-        services: Array.from(formData.getAll('services')).join(', ')
+        from_name: formData.get("name"),
+        from_email: formData.get("email"),
+        phone: formData.get("phone"),
+        services: Array.from(formData.getAll("services")).join(", "),
       };
 
-      const response = await fetch('/api/send-email', {
-        method: 'POST',
+      const response = await fetch("/api/send-email", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
         body: JSON.stringify(data),
       });
 
       if (!response.ok) {
-        throw new Error('Failed to send email');
+        throw new Error("Failed to send email");
       }
 
       setSubmitStatus("success");
@@ -107,12 +107,14 @@ export default function Hero() {
   };
 
   const servicesOptions = [
-    "House Painting",
+    "Interior Painting",
+    "Exterior Painting",
     "Deep Cleaning",
-    "Plumbing",
-    "Electrical Work",
-    "Furniture Work",
-    "False Ceiling",
+    "Grouting",
+    "Texture",
+    "Wallpaper",
+    "waterproofing",
+    "Wood Finishing",
     "Other",
   ];
 
@@ -182,7 +184,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <Services/>
+      <Services />
 
       {/* Steps + Form */}
       <div className="max-w-6xl mx-auto px-4 py-4 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-20 ">
