@@ -17,9 +17,9 @@ export const metadata = {
       "Transform your home with our professional services including deep cleaning, painting, grouting, textures, wallpapers and waterproofing. Quality guaranteed.",
   },
   icons: {
-    icon: "/logo.jpg",
-    shortcut: "/logo.jpg",
-    apple: "/logo.jpg",
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
   },
 };
 

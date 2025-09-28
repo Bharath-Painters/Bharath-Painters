@@ -38,7 +38,7 @@ export default function Navigation() {
           {/* Logo Section */}
           <Link href="/" className="flex items-start">
             <Image
-              src="/logo.jpg"
+              src="/logo.png"
               alt="Bharath Painters Logo"
               width={42}
               height={42}

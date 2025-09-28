@@ -37,8 +37,8 @@ export const metadata = {
     type: "website",
     images: [
       {
-        // url: "./logo.jpg",
-        url: "https://www.bharathpainters.com/logo.jpg",
+        // url: "./logo.png",
+        url: "https://www.bharathpainters.com/logo.png",
         width: 1200,
         height: 630,
         alt: "Bharath Painters - Professional Home Improvement",
@@ -71,7 +71,7 @@ export default function RootLayout({ children }) {
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/logo.jpg" type="image/jpeg" />
+        <link rel="icon" href="/logo.png" type="image/jpeg" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -79,8 +79,8 @@ export default function RootLayout({ children }) {
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
               name: "Professional Home Services",
-              // image: "./logo.jpg",
-              image: "https://www.bharathpainters.com/logo.jpg",
+              // image: "./logo.png",
+              image: "https://www.bharathpainters.com/logo.png",
               telephone: "+91 8884563601",
               email: "info@bharathpainters.com",
               address: {
