@@ -12,9 +12,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Professional Texture Painting Services | Decorative Wall Finishes",
+  title: "Texture Wall Painting in Bangalore | Stylish Finishes",
   description:
-    "Expert texture painting services including decorative finishes, textured walls, and specialty coatings. Transform your spaces with our professional solutions.",
+    "Enhance your walls with texture finishes in Bangalore—unique patterns, accent walls & durably styled effects by expert craftsmen. Book a free consultation today.",
   keywords:
     "texture painting, textured walls, decorative finishes, wall textures, specialty coatings, stucco finish, sand finish, popcorn texture, knockdown texture, home services, professional painters, bharath painters",
   openGraph: {

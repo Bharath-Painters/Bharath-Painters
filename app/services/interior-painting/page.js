@@ -11,9 +11,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Professional Interior Painting Services | Premium Quality Finishes",
+  title: "Interior Painting Services in Bangalore | Premium Finish",
   description:
-    "Expert interior painting services including living rooms, bedrooms, kitchens, bathrooms, and specialty finishes. Licensed painters with quality guarantee.",
+    "Transform your home with expert interior painting services in Bangalore — color consultation, moisture-resistant finishes, textured walls, and flawless workmanship.",
   keywords:
     "interior painting services, indoor painting, wall painting, ceiling painting, trim painting, cabinet painting, home services, professional painters, color consultation, wall preparation, bharath painters",
   openGraph: {

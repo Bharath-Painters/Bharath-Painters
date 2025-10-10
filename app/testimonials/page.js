@@ -3,9 +3,9 @@ import Footer from "@/components/Footer";
 import { Star, Quote } from "lucide-react";
 
 export const metadata = {
-  title: "Client Testimonials | Professional Home Services",
+  title: "Client Testimonials – Bharath Painters in Bengaluru",
   description:
-    "Read what our clients say about our professional home services including deep cleaning, painting, grouting, textures, wallpapers, and waterproofing.",
+    "See what our customers in Bengaluru are saying — honest reviews, before & afters, real experiences with Bharath Painters’ services.",
   keywords:
     "home services testimonials, client reviews, customer feedback, service ratings, home improvement reviews, deep cleaning, exterior painting, interior painting, grouting, textures, wallpapers, waterproofing, bharath painters",
   openGraph: {

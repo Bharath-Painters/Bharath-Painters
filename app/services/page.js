@@ -13,9 +13,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Professional Home Services | Deep Cleaning, Painting & More",
+  title: "Our Services | Painting, Waterproofing & Cleaning in Bengaluru",
   description:
-    "Comprehensive home services focused on deep cleaning, interior & exterior painting, grouting, texture finishes, wallpapers and waterproofing. Licensed professionals, quality guaranteed.",
+    "Explore Bharath Painters’ wide range of services: painting, waterproofing, grouting, cleaning, wallpaper installation, and wood finishing. Quality guaranteed.",
   keywords:
     "home services, deep cleaning, exterior painting, interior painting, grouting, texture finishes, wallpapers, waterproofing, home improvement, bharath painters",
   openGraph: {

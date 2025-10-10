@@ -12,9 +12,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Professional Wood Finishing Services | Premium Staining & Varnishing",
+  title: "Wood Finishing Services in Bangalore | Staining & Varnishing",
   description:
-    "Expert wood finishing services including staining, varnishing, polishing, and restoration. Transform your wooden surfaces with our professional solutions.",
+    "Enhance and protect your wooden surfaces with expert wood finishing services in Bangalore. Offering staining, varnishing, and restoration for furniture and more.",
   keywords:
     "wood finishing, wood staining, varnishing, wood polishing, furniture restoration, deck staining, cabinet refinishing, home services, professional wood finishes, bharath painters",
   openGraph: {

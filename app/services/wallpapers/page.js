@@ -13,9 +13,9 @@ import {
 
 export const metadata = {
   title:
-    "Professional Wallpaper Installation Services | Modern & Classic Designs",
+    "Wallpaper Installation in Bangalore | Custom Designs & Expert Finish",
   description:
-    "Expert wallpaper installation and removal services. Transform your spaces with our wide selection of modern and classic wallpaper designs.",
+    "Transform your interiors with professional wallpaper installation in Bangalore. Offering a wide range of designs, custom sizing, and flawless finishes. Book a free consultation today.",
   keywords:
     "wallpaper installation, wallpaper removal, wallpaper services, decorative wallpaper, accent wall, modern wallpaper, classic wallpaper, home services, professional wallpaper, bharath painters",
   openGraph: {

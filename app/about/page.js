@@ -4,9 +4,9 @@ import { CheckCircle, Award, Users, Clock, Shield, Heart } from "lucide-react";
 
 export const metadata = {
   title:
-    "About Us | Bharath Painters Services - Professional Home Improvement Experts",
+    "About Bharath Painters | Trusted Experts in Bengaluru",
   description:
-    "Learn about Bharath Painters Services - over 8+ years of experience providing professional house painting, Texture, Grouting, Interior and exterior painting, Wallpaper, Waterproofing Deep cleaning, and home improvement services.",
+    "Discover Bharath Painters, your trusted partner for painting, waterproofing, and home services in Bengaluru. 8+ years of experience with happy customers.",
   keywords:
     "about Bharath Painters services, professional home improvement, licensed contractors, experienced home services team, home services, house painting, house painting, Texture, Grouting, Interior and exterior painting, Wallpaper, Waterproofing Deep cleaning, home improvement, professional services, renovation, house renovate, house renovation, bharath, painters, paintings, bharath painters",
   openGraph: {

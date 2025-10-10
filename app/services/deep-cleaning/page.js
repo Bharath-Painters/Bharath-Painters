@@ -11,9 +11,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Professional Deep Cleaning Services | Bharath Painters",
+  title: "Deep Cleaning Services in Bangalore | Eco-Friendly & Reliable",
   description:
-    "Expert deep cleaning services including post-construction cleanup, move-in/move-out cleaning, regular maintenance, and specialized cleaning solutions.",
+    "Bharath Painters offers professional deep cleaning services in Bangalore—homes, offices, post-construction, and move-in/move-out. Eco-friendly, insured, and thorough.",
   keywords:
     "deep cleaning services, house cleaning, post-construction cleanup, move-in cleaning, move-out cleaning, professional cleaning services, home services, house painting, plumbing, electrical work, deep cleaning, furniture work, false ceiling, home improvement, professional services, renovation, house renovate, house renovation, bharath, painters, paintings, bharath painters",
   openGraph: {

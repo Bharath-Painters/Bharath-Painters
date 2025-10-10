@@ -4,9 +4,9 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import ContactForm from "@/components/Footer-contact";
 
 export const metadata = {
-  title: "Contact Us | Professional Home Services",
+  title: "Contact | Free Quote for Home Services Bengaluru",
   description:
-    "Get in touch with our team for professional home services including house painting, Texture, Grouting, Interior and exterior painting, Wallpaper, Waterproofing Deep cleaning, and more. Request a free quotation today.",
+    "Get in touch with Bharath Painters for painting, waterproofing, cleaning, and more in Bengaluru. Request a free site visit and personalized estimate today.",
   keywords:
     "contact home services, request quotation, home improvement consultation, professional services contact, home services, house painting, Texture, Grouting, Interior and exterior painting, Wallpaper, Waterproofing Deep cleaning, home improvement, professional services, renovation, house renovate, house renovation, bharath, painters, paintings, bharath painters",
   openGraph: {

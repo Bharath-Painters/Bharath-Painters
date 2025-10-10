@@ -3,9 +3,9 @@ import Footer from "@/components/Footer";
 import { CheckCircle } from "lucide-react";
 
 export const metadata = {
-  title: "Our Work Gallery | Bharath Painters Services",
+  title: "Gallery of Past Projects | Bharath Painters in Bangalore",
   description:
-    "Browse our gallery of completed projects including deepcleaning, exterior painting, grouting, interior painting, texture, wallpaper, and waterproofing., and more. See the quality of our professional home services.",
+    "Browse our gallery of completed painting, waterproofing, texture, wallpaper, and wood finishing projects across Bengaluru. Quality you can see.",
   keywords:
     "home services gallery, painting projects, home improvement gallery, before and after, project showcase, home services, house painting, plumbing, electrical work, deep cleaning, furniture work, false ceiling, home improvement, professional services, renovation, house renovate, house renovation, bharath, painters, paintings, bharath painters, deepcleaning, exterior painting, grouting, interior painting, texture, wallpaper, and waterproofing.",
   openGraph: {

@@ -12,9 +12,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Professional Grouting Services | Tile & Surface Restoration",
+  title: "Grouting Services in Bangalore | Tile & Joint Restoration",
   description:
-    "Expert grouting services for bathrooms, kitchens, floors, and walls. Restore and protect your tiled surfaces with our professional solutions.",
+    "Restore your tiles & joints with expert grouting services in Bangalore. Bharath Painters fills gaps, stops seepage & revives beauty with long-lasting, clean finishes.",
   keywords:
     "grouting services, tile grouting, grout repair, grout cleaning, grout sealing, bathroom grouting, kitchen grouting, floor grouting, wall grouting, home services, professional grouting, bharath painters",
   openGraph: {

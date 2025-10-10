@@ -9,7 +9,7 @@ import FAQ from "@/components/FAQ";
 export const metadata = {
   title: "Professional Home Services | Deep Cleaning, Painting & More",
   description:
-    "Professional home services focused on deep cleaning, interior & exterior painting, grouting, textures, wallpapers and waterproofing. Quality workmanship guaranteed.",
+    "Bharath Painters provides professional interior and exterior painting, waterproofing, and cleaning services in Bangalore. Book your free site visit today.",
   keywords:
     "home services, deep cleaning, exterior painting, interior painting, grouting, texture finishes, wallpapers, waterproofing, home improvement, bharath painters, bangalore, painters, bharath painters, interior, house, painters",
   openGraph: {
