@@ -1,12 +1,12 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
-import Canonical from "@/components/Canonical";
 import { headers } from "next/headers";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
+// Static metadata used as a base for generateMetadata
+const STATIC_METADATA = {
   title: {
     default:
       "Bharath Painters | Painting, waterproofing, texture Cleaning & More",
@@ -184,7 +184,6 @@ export default function RootLayout({ children }) {
               '<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NW7MQZ5X" height="0" width="0" style="display:none;visibility:hidden"></iframe>',
           }}
         />
-        <Canonical />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -222,6 +221,7 @@ export async function generateMetadata() {
     const canonical = `${proto}://${host}${pathname}`;
 
     return {
+      ...STATIC_METADATA,
       alternates: {
         canonical,
       },
