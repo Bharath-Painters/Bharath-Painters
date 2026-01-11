@@ -47,19 +47,19 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/profile.php?id=61585119941074"
                 className="text-gray-400 hover:text-blue-400 transition-colors duration-200"
               >
                 <Facebook size={24} />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/bharath_painters/"
                 className="text-gray-400 hover:text-pink-400 transition-colors duration-200"
               >
                 <Instagram size={24} />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://x.com/BharathPainters"
                 className="text-gray-400 hover:text-blue-400 transition-colors duration-200"
               >
                 <Twitter size={24} />
