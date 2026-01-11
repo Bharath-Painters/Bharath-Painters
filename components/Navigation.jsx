@@ -52,13 +52,13 @@ export default function Navigation() {
           </Link>
 
           {/* Desktop/Tablet Navigation */}
-          <div className="hidden md:flex ml-4 md:ml-6 lg:ml-10 space-x-1 md:space-x-2 lg:space-x-4 xl:space-x-6">
+          <div className="hidden md:flex ml-28 space-x-1 md:space-x-2 lg:space-x-4 xl:space-x-6">
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
-                className={`px-2 py-1 rounded-md font-semibold transition-colors duration-200
-                  text-xs sm:text-sm md:text-sm lg:text-lg xl:text-xl whitespace-nowrap
+                className={`px-1 py-0 rounded-md font-semibold transition-colors duration-200
+                  text-xs sm:text-sm lg:text-base whitespace-nowrap
                   ${
                     pathname === item.href
                       ? "text-yellow-500"
