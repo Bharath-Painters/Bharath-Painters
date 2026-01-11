@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Canonical from "@/components/Canonical";
+import { headers } from "next/headers";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -195,4 +196,37 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   );
+}
+
+// Dynamic metadata generator to create a per-request canonical URL
+export async function generateMetadata() {
+  try {
+    const hdrs = headers();
+    const host = hdrs.get("host") || "www.bharathpainters.com";
+    // prefer forwarded proto if present (Vercel/Proxies)
+    const proto = hdrs.get("x-forwarded-proto") || "https";
+    // Try to derive the requested path from x-invoke-path or referer as a fallback
+    const pathFromInvoke = hdrs.get("x-invoke-path") || "";
+    const referer = hdrs.get("referer");
+    let pathname = "/";
+    if (pathFromInvoke) {
+      pathname = pathFromInvoke;
+    } else if (referer) {
+      try {
+        pathname = new URL(referer).pathname || "/";
+      } catch (e) {
+        pathname = "/";
+      }
+    }
+
+    const canonical = `${proto}://${host}${pathname}`;
+
+    return {
+      alternates: {
+        canonical,
+      },
+    };
+  } catch (e) {
+    return {};
+  }
 }

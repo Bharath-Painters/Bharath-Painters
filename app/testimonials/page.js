@@ -18,76 +18,34 @@ export const metadata = {
 export default function Testimonials() {
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      location: "Downtown",
-      service: "House Painting",
+      name: "Sharath Kumara GR",
       rating: 5,
-      text: "Absolutely amazing work! The team was professional, punctual, and the quality of their painting exceeded our expectations. Our home looks brand new!",
-      image:
-        "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2",
+      text: "We were so impressed with bharath painters. From the initial quote, communication was clear and the scheduling was smooth. The crew especially Mr. roshan arrived right on time, protected our floors perfectly, and worked efficiently. The attention to detail on our detailed crown molding was exceptional, and the final finish on our living room walls is flawless and smooth—no brush strokes at all! They were polite, cleaned up meticulously each day, and even gave great advice on choosing the perfect accent color. We couldn't be happier with the result and will definitely use them again for our interior project.",
     },
     {
-      name: "Michael Chen",
-      location: "Suburbs",
-      service: "Plumbing",
+      name: "Reddy",
       rating: 5,
-      text: "Quick response to our plumbing emergency. The technician was knowledgeable and fixed the issue efficiently. Highly recommend their services!",
-      image:
-        "https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2",
+      text: "The team from Bharat painters was professional and tidy. They spent the first day just on preparing,Did they show up on time and finish within the promised timeframe which really showed in the final result. The lines along the ceiling and walls  are perfect.They finished half a day early and left the house spotless. I’d highly recommend them for any interior work.contractor roshan is have good experience in the painting.",
     },
     {
-      name: "Emily Rodriguez",
-      location: "City Center",
-      service: "Deep Cleaning",
+      name: "Shibu Shibani",
       rating: 5,
-      text: "The deep cleaning service was thorough and impressive. They cleaned areas I never even thought about. My house has never been cleaner!",
-      image:
-        "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2",
+      text: "Thank you, Bharat Painters, for the excellent painting work. The staff maintained a very cordial and professional attitude throughout. Truly appreciate your service.",
     },
     {
-      name: "David Thompson",
-      location: "West Side",
-      service: "Electrical Work",
+      name: "Bibhun Rout",
       rating: 5,
-      text: "Professional electrical work done right the first time. They explained everything clearly and made sure all safety standards were met. Great service!",
-      image:
-        "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2",
+      text: "Happy to be the first customer and they delivered the service very nicely.I sincerely thanks to roshan for timely execution and Guruprasad for the supervision",
     },
     {
-      name: "Jennifer Martinez",
-      location: "East Side",
-      service: "Furniture Work",
+      name: "Mahesh Ranjeri",
       rating: 5,
-      text: "The furniture repair team did an incredible job restoring our antique dining table. Their craftsmanship is outstanding, and they were very respectful of our home.",
-      image:
-        "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2",
+      text: "Bharath Painters painted my house nicely. The colors look very good and finishing is perfect. I recommend them to others.",
     },
     {
-      name: "Robert Kim",
-      location: "North County",
-      service: "False Ceiling",
+      name: "Basavaraj K Basu",
       rating: 5,
-      text: "The false ceiling installation transformed our living room. The design suggestions were spot on, and the execution was flawless. Very satisfied with the results!",
-      image:
-        "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2",
-    },
-    {
-      name: "Lisa Wilson",
-      location: "Downtown",
-      service: "House Painting",
-      rating: 5,
-      text: "Second time using their painting services and just as impressed as the first time. Attention to detail is amazing, and they always clean up perfectly after the job.",
-      image:
-        "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2",
-    },
-    {
-      name: "James Anderson",
-      location: "Suburbs",
-      service: "Plumbing",
-      rating: 5,
-      text: "Had multiple plumbing issues that other companies couldn't fix. Their team diagnosed and resolved everything in one visit. Fair pricing and excellent workmanship.",
-      image:
-        "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2",
+      text: "Excellent service from Bharath Painters. From quotation to final completion everything was smooth and transparent. Very satisfied with the work.",
     },
   ];
 
@@ -115,20 +73,10 @@ export default function Testimonials() {
             >
               <div className="p-4">
                 <div className="flex items-center mb-3">
-                  <div className="mr-4">
-                    <img
-                      src={testimonial.image}
-                      alt={testimonial.name}
-                      className="w-12 h-12 rounded-full object-cover"
-                    />
-                  </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">
                       {testimonial.name}
                     </h3>
-                    <p className="text-blue-600 text-xs">
-                      {testimonial.service} • {testimonial.location}
-                    </p>
                   </div>
                 </div>
 
@@ -147,7 +95,7 @@ export default function Testimonials() {
                     className="absolute -top-2 -left-2 text-blue-100"
                     size={24}
                   />
-                  <p className="text-gray-700 italic relative z-10 pl-4 text-sm md:text-md lg:text-base">
+                  <p className="text-gray-700 italic relative z-10 pl-4 text-xs md:text-sm lg:text-md">
                     "{testimonial.text}"
                   </p>
                 </div>

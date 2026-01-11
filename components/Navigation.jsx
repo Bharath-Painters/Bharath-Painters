@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import styles from "./Navigation.module.css";
 import { Menu, X, Phone } from "lucide-react";
 import { usePathname } from "next/navigation";
 
@@ -43,8 +44,7 @@ export default function Navigation() {
               alt="Bharath Painters Logo"
               width={42}
               height={42}
-              className="rounded"
-              style={{ height: "auto" }}
+              className={`${styles.logoImage} rounded`}
             />
             <span className="ml-2 mt-2 text-xl sm:text-base md:text-lg lg:text-2xl font-extrabold text-blue-600 whitespace-nowrap">
               Bharath Painters
