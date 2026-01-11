@@ -147,6 +147,33 @@ export default function RootLayout({ children }) {
             }),
           }}
         />
+        {/* Organization / Corporation schema */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `{
+  "@context": "https://schema.org",
+  "@type": "Corporation",
+  "name": "Bharath Painters",
+  "alternateName": "Bharath Painters",
+  "url": "https://www.bharathpainters.com/",
+  "logo": "https://www.bharathpainters.com/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "8884563601",
+    "contactType": "customer service",
+    "contactOption": "TollFree",
+    "areaServed": "IN",
+    "availableLanguage": "en"
+  },
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=61585119941074",
+    "https://x.com/BharathPainters",
+    "https://www.instagram.com/bharath_painters/"
+  ]
+}`,
+          }}
+        />
       </head>
       <body className={inter.className}>
         {/* Google Tag Manager (noscript) */}
